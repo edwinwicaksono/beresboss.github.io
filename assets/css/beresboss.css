@@ -1,0 +1,28 @@
+body,html{
+    width:100%;
+    height:100%;
+}
+@font-face {
+  font-family: signature;
+  src: url('../font/SquadaOne-Regular.ttf');
+}
+.font-beres{
+  font-family: signature;
+}
+h1 {
+  font-size: 70pt;
+  @media (min-width: 768px) {
+    font-size: 72pt;
+  }
+  @media (min-width: 992px) {
+    font-size: 76pt;
+  }
+  @media (min-width: 1200px) {
+    font-size: 78pt;
+  }
+}
+.inner-center-y{
+  position:relative;
+  top:50%;
+  transform:translateY(-50%);
+}
